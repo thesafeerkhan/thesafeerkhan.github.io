@@ -209,43 +209,6 @@ main {
   background-color: whitesmoke;
 }
 
-.project-links {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.project-links a {
-  text-decoration: none;
-  padding: 0.8rem;
-  font-size: large;
-  color: white;
-  background-color: transparent;
-  border-radius: 0.5rem;
-  font-size: 16px;
-  border: 2px solid white;
-}
-
-.project-links a:hover {
-  color: black;
-  background-color: white;
-}
-
-.pmore {
-  flex: 1;
-  flex-basis: 46.5%;
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  text-align: center;
-}
-
 .project-image-container {
   position: relative;
   width: 100%;
@@ -274,6 +237,22 @@ main {
   margin: 1rem;
 }
 
+.fa-laptop {
+  transform: scale(0.9);
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-links a {
+  color: black;
+  padding: 1rem;
+  font-weight: bold;
+}
+
 /* Divider 2 */
 .custom-shape-divider-top-1604629951 {
   position: absolute;
@@ -298,23 +277,8 @@ main {
 /* About Me */
 #about {
   padding-top: 8rem;
-  height: 100vh;
+  min-height: 100vh;
 }
-
-#about h1 {
-  text-align: center;
-}
-
-.about-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  color: black;
-  background-color: whitesmoke;
-  height: 50vh;
-}
-
 .skills {
   display: flex;
   justify-content: center;
@@ -323,10 +287,6 @@ main {
 }
 
 .skill-item {
-  margin: 2rem;
-}
-
-.profile-bio {
   margin: 2rem;
 }
 
