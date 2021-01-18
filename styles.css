@@ -43,6 +43,10 @@ p {
   font-size: x-large;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* Header */
 header {
   display: flex;
@@ -278,6 +282,8 @@ main {
 #about {
   padding-top: 8rem;
   min-height: 100vh;
+  text-align: center;
+  line-height: 3em;
 }
 .skills {
   display: flex;
@@ -342,6 +348,10 @@ main {
 
   .subtitle {
     font-size: 1rem;
+  }
+
+  #about h1 {
+    font-size: 1em;
   }
 }
 
