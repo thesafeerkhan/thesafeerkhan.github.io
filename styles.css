@@ -211,6 +211,7 @@ main {
   flex-direction: column;
   margin: 1rem;
   background-color: whitesmoke;
+  max-width: 500px;
 }
 
 .project-image-container {
